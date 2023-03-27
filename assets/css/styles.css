@@ -12,13 +12,27 @@ header {}
   padding: 2rem 0;
 }
 
-.wrapper_header {
+.wrapper__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
 }
 
+.logo {
+  width: 10rem;
+}
+
+.wrapper__header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
 
 .swiper {
   width: 100%;

@@ -15,6 +15,52 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/font-subtitle/Montserrat-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/font-subtitle/Montserrat-ExtraLight.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/font-subtitle/Montserrat-Medium.ttf) format('truetype');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/font-subtitle/Montserrat-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+
+/* font title */
+@font-face {
+  font-family: broted-young;
+  src: url(../fonts/Font-title/broted-young-plant-broted-young-plant-regular-400.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: broted-young;
+  src: url(../fonts/Font-title/broted-young-plant-broted-young-plant-medium-500.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: broted-young;
+  src: url(../fonts/Font-title/broted-young-plant-broted-young-plant-bold-700.otf);
+  font-weight: bold;
+}
+
+
 html {
   font-size: 10px;
 }
@@ -22,7 +68,7 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: montserrat;
   box-sizing: border-box;
 }
 

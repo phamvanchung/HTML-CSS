@@ -4,6 +4,9 @@
   --text-color: #333;
   --primary-color: #ee4d2d;
   --star-gold-color: #ffce3e;
+
+  --fs-14: 1.4rem;
+
 }
 
 * {

@@ -1,1 +1,35 @@
 header {}
+
+
+
+.title-free {
+  font-size: var(--fs-14);
+  text-align: center;
+  color: var(--black-color);
+  background-color: pink;
+  width: 100%;
+  display: block;
+  padding: 2rem 0;
+}
+
+.wrapper_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-1 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

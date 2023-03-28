@@ -1,18 +1,9 @@
 :root {
   --white-color: #fff;
   --black-color: #000;
+  --pink-color: #d09793;
+  --pink-light-color: #eed8d1;
   --text-color: #333;
-  --primary-color: #ee4d2d;
-  --star-gold-color: #ffce3e;
-
-  --fs-14: 1.4rem;
-
-}
-
-* {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
 }
 
 @font-face {
@@ -23,7 +14,7 @@
 
 @font-face {
   font-family: montserrat;
-  src: url(../fonts/font-subtitle/Montserrat-ExtraLight.ttf) format('truetype');
+  src: url(../fonts/font-subtitle/Montserrat-Light.ttf) format('truetype');
   font-weight: 500;
 }
 
@@ -60,6 +51,10 @@
   font-weight: bold;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
 
 html {
   font-size: 10px;
@@ -70,25 +65,10 @@ body {
   line-height: 1.6rem;
   font-family: montserrat;
   box-sizing: border-box;
+  line-height: 1.2;
+  color: var(--black-color);
 }
 
-.btn {
-  min-width: 124px;
-  min-height: 36px;
-  border: none;
-  border-radius: 2px;
-  font-size: 1.4rem;
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 12px;
-}
-
-.btn.btn--primary {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
 
 /* @media only screen and (max-width: 480px) {} */
 /* @media only screen and (max-width: 480px) and (min-width: 320px) {} */

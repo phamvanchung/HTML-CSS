@@ -33,6 +33,15 @@ header {
   justify-content: center;
 }
 
+.img_icon {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.icon_search {
+  width: 2rem;
+}
+
 .icon {
   font-size: 1.4rem;
   margin: 0 1rem;
@@ -47,6 +56,7 @@ header {
 
 .thumbnail {
   position: relative;
+  height: 24rem;
 }
 
 .swiper {
@@ -60,6 +70,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .swiper-slide img {
@@ -69,42 +80,76 @@ header {
   object-fit: cover;
 }
 
-.wrap_text {
+
+.wrap_text-slide {
   position: absolute;
-  bottom: 3rem;
-  left: 0rem;
-  width: 85%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1rem;
 }
+
+.silde1 {
+  bottom: 7rem;
+  right: 1rem;
+  width: 48%;
+}
+
+.silde2 {
+  bottom: 7rem;
+  left: 0.5rem;
+  width: 50%;
+}
+
+.silde3 {
+  bottom: 0;
+  right: 0;
+  width: 42%;
+}
+
+
 
 .wrap_text-title {
   color: var(--pink-color);
   font-family: broted-young;
   text-align: start;
   display: inline-block;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  text-shadow: 1px 1px var(--white-color);
+  margin: 1rem 0 0.5rem;
+}
+
+.wrap_text-desc {
+  font-size: 1.1rem;
+  color: var(--pink-color);
 }
 
 .wrap_text-btn {
-  width: 12rem;
+  width: 8rem;
   height: 3rem;
   background-color: var(--pink-color);
   color: var(--white-color);
-  border: 1px solid var(--white-color);
-  border-radius: 2rem;
+  border: none;
+  border-radius: 0.8rem;
   margin-top: 1rem;
+}
+
+.silde3-title {
+  margin: 0;
+}
+
+.silde3-desc {
+  margin: 0.5rem;
+}
+
+.silde3-btn {
+  margin-top: 0.5rem;
 }
 
 .swiper-pagination-bullet {
   border: 2px solid var(--white-color);
-  width: .6rem !important;
-  height: .6rem !important;
+  width: 0.6rem !important;
+  height: 0.6rem !important;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -325,9 +370,8 @@ header {
   height: 3rem;
   background-color: var(--pink-color);
   border: none;
-  font-weight: 700;
   color: var(--white-color);
-  border-radius: 2px;
+  border-radius: 8px;
 }
 
 footer {
@@ -393,8 +437,9 @@ footer {
 
 .line-footer {
   background-color: var(--pink-color);
-  width: 100%;
+  width: 94%;
   height: 2px;
+  margin: 0 auto;
 }
 
 .copyright {

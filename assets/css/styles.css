@@ -155,18 +155,24 @@ header {
 }
 
 .card {
-  padding: 1rem;
-  min-width: 40%;
-  max-width: 40%;
+  min-width: 45%;
+  max-width: 45%;
   height: fit-content;
   border: 1px solid var(--pink-color);
 }
 
 .card__img {
   width: 100%;
-  height: auto;
+  max-width: 14rem;
+  height: 16rem;
   object-fit: contain;
   margin: 0 auto;
+  display: block;
+}
+
+.wrap__card-text {
+  background-color: #ffc0cb3d;
+  padding: 1rem 1.2rem;
 }
 
 .card__tile {
@@ -310,7 +316,7 @@ header {
 
 .card__avatar-title {
   font-size: 1.2rem;
-  margin: .5rem 0;
+  margin: .5rem .7rem;
   text-align: center;
 }
 
@@ -365,11 +371,15 @@ footer {
   margin: .5rem 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .right {
   text-align: right;
+}
+
+.mr-5 {
+  margin-right: 5rem;
 }
 
 .col_footer-icon {
@@ -409,4 +419,18 @@ footer {
 .swiper-button-next::after {
   font-size: 2.2rem !important;
   color: var(--white-color);
+}
+
+@media only screen and (min-width: 414px) {
+  .col_footer {
+    width: 52%;
+  }
+
+  .mr-5 {
+    margin-right: 0;
+  }
+
+  .right {
+    width: 40%;
+  }
 }

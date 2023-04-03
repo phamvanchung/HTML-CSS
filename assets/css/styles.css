@@ -56,7 +56,7 @@ header {
 
 .thumbnail {
   position: relative;
-  height: 24rem;
+  height: 20rem;
 }
 
 .swiper {
@@ -91,23 +91,9 @@ header {
 
 .silde1 {
   bottom: 7rem;
-  right: 1rem;
-  width: 48%;
+  right: 5.5rem;
+  width: 20%;
 }
-
-.silde2 {
-  bottom: 7rem;
-  left: 0.5rem;
-  width: 50%;
-}
-
-.silde3 {
-  bottom: 0;
-  right: 0;
-  width: 42%;
-}
-
-
 
 .wrap_text-title {
   color: var(--pink-color);
@@ -131,19 +117,6 @@ header {
   color: var(--white-color);
   border: none;
   border-radius: 0.8rem;
-  margin-top: 1rem;
-}
-
-.silde3-title {
-  margin: 0;
-}
-
-.silde3-desc {
-  margin: 0.5rem;
-}
-
-.silde3-btn {
-  margin-top: 0.5rem;
 }
 
 .swiper-pagination-bullet {
